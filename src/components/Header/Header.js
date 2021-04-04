@@ -150,11 +150,7 @@ class Header extends React.Component {
           </NavLink>
         </div>
         <div className={`d-print-none ${s.root}`}>
-          <UncontrolledAlert
-            className={`${s.alert} mr-3 d-lg-down-none animate__animated animate__bounceIn animate__delay-1s`}
-          >
-            Welcome
-          </UncontrolledAlert>
+
         </div>
         <div className={`d-print-none ${s.root}`}>
           <Nav className="ml-md-0">

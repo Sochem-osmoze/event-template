@@ -194,17 +194,17 @@ table > thead > tr > th {
 
 /* --------- Stats Row --------- */
 .stats-row {
-  margin-bottom: 1.25rem;
+  margin-bottom: 1.1rem;
   display: flex;
   align-items: center;
 }
 
 .stat-item {
   display: inline-block;
-  padding-right: 1.25rem;
+  padding-right: 1.1rem;
 
   & + .stat-item {
-    padding-left: 1.25rem;
+    padding-left: 1.1rem;
     border-left: 1px solid $hr-border-color;
   }
 

@@ -89,7 +89,7 @@ class Sidebar extends React.Component {
                         header="Dashboard"
                         isHeader
                         iconName={<HomeIcon className={s.menuIcon} />}
-                        link="/app/main"
+                        link="/events/main"
                         index="main"
                     />
                     <LinksGroup
@@ -98,7 +98,7 @@ class Sidebar extends React.Component {
                         header="ChemCoding"
                         isHeader
                         iconName={<TablesIcon className={s.menuIcon} />}
-                        link="/app/chemCoding"
+                        link="/events/chemCoding"
                         index="chemcoding"
                     
                     />
@@ -108,7 +108,7 @@ class Sidebar extends React.Component {
                         header="Chemathon"
                         isHeader
                         iconName={<TablesIcon className={s.menuIcon} />}
-                        link="/app/Chemathon"
+                        link="/events/Chemathon"
                         index="Chemathon"
                     
                     />
@@ -118,7 +118,7 @@ class Sidebar extends React.Component {
                         header="Adhyayan"
                         isHeader
                         iconName={<TablesIcon className={s.menuIcon} />}
-                        link="/app/Adhyayan"
+                        link="/events/Adhyayan"
                         index="Adhyayan"
                     
                     />
@@ -128,7 +128,7 @@ class Sidebar extends React.Component {
                         header="Udyog"
                         isHeader
                         iconName={<TablesIcon className={s.menuIcon} />}
-                        link="/app/Udyog"
+                        link="/events/Udyog"
                         index="Udyog"
                     
                     />

@@ -38,14 +38,14 @@ class App extends React.PureComponent {
             />
             <HashRouter>
                 <Switch>
-                    <Route path="/" exact render={() => <Redirect to="/app/main"/>}/>
-                    <Route path="/app" exact render={() => <Redirect to="/app/main"/>}/>
-                    <PrivateRoute path="/app" dispatch={this.props.dispatch} component={LayoutComponent}/>
+                    <Route path="/" exact render={() => <Redirect to="/events/main"/>}/>
+                    <Route path="/events" exact render={() => <Redirect to="/events/main"/>}/>
+                    <PrivateRoute path="/events" dispatch={this.props.dispatch} component={LayoutComponent}/>
                     {/* <Route path="/register" exact component={Register}/> */}
                     {/* <Route path="/login" exact component={Login}/> */}
                     <Route path="/error" exact component={ErrorPage}/>
                     <Route component={ErrorPage}/>
-                    <Redirect from="*" to="/app/main/dashboard"/>
+                    <Redirect from="*" to="/events/main/dashboard"/>
                 </Switch>
             </HashRouter>
         </div>

@@ -81,23 +81,23 @@ class Layout extends React.Component {
                   timeout={200}
                 >
                   <Switch>
-                    <Route path="/app/main" exact render={() => <Redirect to="/app/main/dashboard" />} />
-                    <Route path="/app/main/dashboard" exact component={Dashboard} />
-                    {/* <Route path="/app/components/icons" exact component={UIIcons} /> */}
-                    {/* <Route path="/app/notifications" exact component={UINotifications} /> */}
-                    {/* <Route path="/app/components/charts" exact component={Charts} /> */}
-                    {/* <Route path="/app/tables" exact component={TablesStatic} /> */}
-                    {/* <Route path="/app/components/maps" exact component={MapsGoogle} /> */}
-                    {/* <Route path="/app/typography" exact component={CoreTypography} /> */}
-                    <Route path="/app/chemcoding" exact component={ChemCoding} />
-                    <Route path="/app/Chemathon" exact component={Chemathon} />
-                    <Route path="/app/Adhyayan" exact component={Adhyayan} />
-                    <Route path="/app/Udyog" exact component={Udyogg} />
+                    <Route path="/events/main" exact render={() => <Redirect to="/events/main/dashboard" />} />
+                    <Route path="/events/main/dashboard" exact component={Dashboard} />
+                    {/* <Route path="/events/components/icons" exact component={UIIcons} /> */}
+                    {/* <Route path="/events/notifications" exact component={UINotifications} /> */}
+                    {/* <Route path="/events/components/charts" exact component={Charts} /> */}
+                    {/* <Route path="/events/tables" exact component={TablesStatic} /> */}
+                    {/* <Route path="/events/components/maps" exact component={MapsGoogle} /> */}
+                    {/* <Route path="/events/typography" exact component={CoreTypography} /> */}
+                    <Route path="/events/chemcoding" exact component={ChemCoding} />
+                    <Route path="/events/Chemathon" exact component={Chemathon} />
+                    <Route path="/events/Adhyayan" exact component={Adhyayan} />
+                    <Route path="/events/Udyog" exact component={Udyogg} />
                   </Switch>
                 </CSSTransition>
               </TransitionGroup>
               <footer className={s.contentFooter}>
-                  Osmoze ©2021 This website is made with by Sochem Informatics Team
+                  Osmoze ©2021 This website is made by Sochem Informatics Team
               </footer>
             </main>
           </Hammer>
