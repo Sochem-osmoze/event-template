@@ -6,8 +6,8 @@ import Widget from "../../components/Widget/Widget";
 const ChemCoding = () => (
   <div >
     {/* This is New Widget */}
-    <Row>
-      <Col xs={12} lg={6}>
+    <Row className="row justify-content-center">
+      <Col  xs={"12"} lg={"8"}  >
         <Widget
           title={
             <h5>
@@ -16,11 +16,9 @@ const ChemCoding = () => (
             </h5>
           }
           collapse
-          fullscreen
-
-
+          close
         >
-          <h4 className="mt-5  display-4">ChemCoding Details </h4>
+          <h4 className="mt-5  display-5">ChemCoding Details </h4>
           <div className="widget-padding-md w-100 h-100 text-left border rounded">
             <p className="lead">
             Information Technology today is growing at an impeccable rate and as such being able to code is one such skill which would go a really long way in one's career, regardless of profession. Osmoze brings to you the opportunity to showcase logical thinking and dexterity with algorithms in the form of ChemCoding, an exhilarating coding event.
@@ -48,8 +46,8 @@ const ChemCoding = () => (
     </Row>
 
     {/* This is New Widget */}
-    <Row>
-      <Col xs={12} lg={6}>
+    <Row className="row justify-content-center">
+      <Col  xs={"12"} lg={"8"}  >
         <Widget
           title={
             <h5>
@@ -58,11 +56,11 @@ const ChemCoding = () => (
             </h5>
           }
           collapse
-          fullscreen
+          close
 
 
         >
-          <h4 className="mt-5  display-4">ChemCoding has turned un-proctored</h4>
+          <h4 className="mt-5  display-5">ChemCoding has turned un-proctored</h4>
           <div className="widget-padding-md w-100 h-100 text-left border rounded">
             <p className="lead">
                 As a part of the decision taken today by the Osmoze Core team, all events have turned online. The new cash prize for Chem Coding will be INR. 5000.
@@ -72,8 +70,6 @@ const ChemCoding = () => (
         </Widget>
       </Col>
     </Row>
-    
-    <iframe src="https://www.google.com" ></iframe>
   </div>
 );
 

@@ -4,7 +4,7 @@ import { Row, Col, Progress, Table, Label, Input } from "reactstrap";
 import Widget from "../../components/Widget";
 
 import Calendar from "./components/calendar/Calendar";
-import Map from "./components/am4chartMap/am4chartMap";
+// import Map from "./components/am4chartMap/am4chartMap";
 import Rickshaw from "./components/rickshaw/Rickshaw";
 
 import AnimateNumber from "react-animated-number";
@@ -59,19 +59,19 @@ class Dashboard extends React.Component {
         <h1 className="page-title">
           Dashboard &nbsp;
           <small>
-            <small>The Lucky One</small>
+            <small>Osmoze Events</small>
           </small>
         </h1>
 
         <Row>
-          <Col lg={7}>
+          <Col lg={5}>
             <Widget className="bg-transparent">
-              <Map />
+              {/* <Map /> */}
             </Widget>
           </Col>
           <Col lg={1} />
 
-          <Col lg={4}>
+          <Col lg={6}>
             <Widget
               className="bg-transparent"
               title={

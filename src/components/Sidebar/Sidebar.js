@@ -11,8 +11,9 @@ import LinksGroup from './LinksGroup';
 import {changeActiveSidebarItem} from '../../actions/navigation';
 import {logoutUser} from '../../actions/user';
 import HomeIcon from '../Icons/SidebarIcons/HomeIcon';
+
 // import TypographyIcon from '../Icons/SidebarIcons/TypographyIcon';
-// import TablesIcon from '../Icons/SidebarIcons/TablesIcon';
+import TablesIcon from '../Icons/SidebarIcons/TablesIcon';
 // import NotificationsIcon from '../Icons/SidebarIcons/NotificationsIcon';
 // import ComponentsIcon from '../Icons/SidebarIcons/ComponentsIcon';
 
@@ -78,8 +79,8 @@ class Sidebar extends React.Component {
                 }}
             >
                 <header className={s.logo}>
-                    <a href="https://demo.flatlogic.com/light-blue-react/">Light <span
-                        className="fw-bold">Blue</span></a>
+                    <a href="https://www.sochem.org">So-<span
+                        className="fw-bold">Chem</span></a>
                 </header>
                 <ul className={s.nav}>
                     <LinksGroup
@@ -96,11 +97,41 @@ class Sidebar extends React.Component {
                         activeItem={this.props.activeItem}
                         header="ChemCoding"
                         isHeader
-                        iconName={<HomeIcon className={s.menuIcon} />}
+                        iconName={<TablesIcon className={s.menuIcon} />}
                         link="/app/chemCoding"
                         index="chemcoding"
-                    />
                     
+                    />
+                    <LinksGroup
+                        onActiveSidebarItemChange={activeItem => this.props.dispatch(changeActiveSidebarItem(activeItem))}
+                        activeItem={this.props.activeItem}
+                        header="Chemathon"
+                        isHeader
+                        iconName={<TablesIcon className={s.menuIcon} />}
+                        link="/app/Chemathon"
+                        index="Chemathon"
+                    
+                    />
+                    <LinksGroup
+                        onActiveSidebarItemChange={activeItem => this.props.dispatch(changeActiveSidebarItem(activeItem))}
+                        activeItem={this.props.activeItem}
+                        header="Adhyayan"
+                        isHeader
+                        iconName={<TablesIcon className={s.menuIcon} />}
+                        link="/app/Adhyayan"
+                        index="Adhyayan"
+                    
+                    />
+                    <LinksGroup
+                        onActiveSidebarItemChange={activeItem => this.props.dispatch(changeActiveSidebarItem(activeItem))}
+                        activeItem={this.props.activeItem}
+                        header="Udyog"
+                        isHeader
+                        iconName={<TablesIcon className={s.menuIcon} />}
+                        link="/app/Udyog"
+                        index="Udyog"
+                    
+                    />
                    
                 </ul>
                 
