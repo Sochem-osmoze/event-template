@@ -1,20 +1,29 @@
 import React from "react";
-import { Row, Col, Progress, Table, Label, Input } from "reactstrap";
+// import {
+//   Row, Col, Progress, Table, Label, Input, Card, CardImg, CardText, CardBody,
+//   CardTitle, CardSubtitle, Button
+// } from "reactstrap";
+import {
+  Row, Col, Card, CardImg, CardText, CardBody,
+  CardTitle, CardSubtitle, Button
+} from "reactstrap";
+// import Widget from "../../components/Widget";
 
-import Widget from "../../components/Widget";
+// import Calendar from "./components/calendar/Calendar";
+//  import Map from "./components/am4chartMap/am4chartMap";
+// import Rickshaw from "./components/rickshaw/Rickshaw";
 
-import Calendar from "./components/calendar/Calendar";
-// import Map from "./components/am4chartMap/am4chartMap";
-import Rickshaw from "./components/rickshaw/Rickshaw";
-
-import AnimateNumber from "react-animated-number";
+// import AnimateNumber from "react-animated-number";
 
 import s from "./Dashboard.module.scss";
 
-import peopleA1 from "../../assets/people/a1.jpg";
-import peopleA2 from "../../assets/people/a2.jpg";
-import peopleA5 from "../../assets/people/a5.jpg";
-import peopleA4 from "../../assets/people/a4.jpg";
+import Adhyan from "../../assets/people/Adhyan.jpg";
+import udyog from "../../assets/people/udyog.jpg";
+import Chemcoding from "../../assets/people/Chemcoding.jpg";
+import osmoclick from "../../assets/people/osmoclick.jpg";
+import OsmoCross from "../../assets/people/OsmoCross.jpg";
+import Chemathon from "../../assets/people/Chemathon.jpg";
+
 
 class Dashboard extends React.Component {
   constructor(props) {
@@ -62,426 +71,116 @@ class Dashboard extends React.Component {
             <small>Osmoze Events</small>
           </small>
         </h1>
-
+        <h1 className="page-title">
+          <small>
+            <small>Main-Events</small>
+          </small>
+        </h1>
         <Row>
-          <Col lg={5}>
-            <Widget className="bg-transparent">
-              {/* <Map /> */}
-            </Widget>
+          <Col lg={6} xl={6} md={12} className="mt-5">
+            <Card>
+              <CardImg top width="100%" src={Adhyan} alt="Card image cap" />
+              <CardBody>
+                <CardTitle tag="h5">Adhyayan</CardTitle>
+                <CardSubtitle tag="h6" className="mb-2 text-muted">15 April 2021</CardSubtitle>
+                <CardText>Ever fancied yourself as a maverick of management! Come test your astute skills in solving a real-life case study in the event, ADHYAYAN.</CardText>
+                <Button
+                  color="primary"
+                  id="show-info-message"
+                  href="#/events/Adhyayan"
+                >
+                  Link
+                </Button>
+              </CardBody>
+            </Card>
           </Col>
-          <Col lg={1} />
-
-          <Col lg={6}>
-            <Widget
-              className="bg-transparent"
-              title={
-                <h5>
-                  {" "}
-                  Map
-                  <span className="fw-semi-bold">&nbsp;Statistics</span>
-                </h5>
-              }
-              settings
-              refresh
-              close
-            >
-              <p>
-                Status: <strong>Live</strong>
-              </p>
-              <p>
-                <span className="circle bg-default text-white">
-                  <i className="fa fa-map-marker" />
-                </span>{" "}
-                &nbsp; 146 Countries, 2759 Cities
-              </p>
-              <div className="row progress-stats">
-                <div className="col-md-9 col-12">
-                  <h6 className="name fw-semi-bold">Foreign Visits</h6>
-                  <p className="description deemphasize mb-xs text-white">
-                    Some Cool Text
-                  </p>
-                  <Progress
-                    color="primary"
-                    value="60"
-                    className="bg-subtle-blue progress-xs"
-                  />
-                </div>
-                <div className="col-md-3 col-12 text-center">
-                  <span className="status rounded rounded-lg bg-default text-light">
-                    <small>
-                      <AnimateNumber value={75} />%
-                    </small>
-                  </span>
-                </div>
-              </div>
-              <div className="row progress-stats">
-                <div className="col-md-9 col-12">
-                  <h6 className="name fw-semi-bold">Local Visits</h6>
-                  <p className="description deemphasize mb-xs text-white">
-                    P. to C. Conversion
-                  </p>
-                  <Progress
-                    color="danger"
-                    value="39"
-                    className="bg-subtle-blue progress-xs"
-                  />
-                </div>
-                <div className="col-md-3 col-12 text-center">
-                  <span className="status rounded rounded-lg bg-default text-light">
-                    <small>
-                      <AnimateNumber value={84} />%
-                    </small>
-                  </span>
-                </div>
-              </div>
-              <div className="row progress-stats">
-                <div className="col-md-9 col-12">
-                  <h6 className="name fw-semi-bold">Sound Frequencies</h6>
-                  <p className="description deemphasize mb-xs text-white">
-                    Average Bitrate
-                  </p>
-                  <Progress
-                    color="success"
-                    value="80"
-                    className="bg-subtle-blue progress-xs"
-                  />
-                </div>
-                <div className="col-md-3 col-12 text-center">
-                  <span className="status rounded rounded-lg bg-default text-light">
-                    <small>
-                      <AnimateNumber value={92} />%
-                    </small>
-                  </span>
-                </div>
-              </div>
-              <h6 className="fw-semi-bold mt">Map Distributions</h6>
-              <p>
-                Tracking: <strong>Active</strong>
-              </p>
-              <p>
-                <span className="circle bg-default text-white">
-                  <i className="fa fa-cog" />
-                </span>
-                &nbsp; 391 elements installed, 84 sets
-              </p>
-              <div className="input-group mt">
-                <input
-                  type="text"
-                  className="form-control bg-custom-dark border-0"
-                  placeholder="Search Map"
-                />
-                <span className="input-group-btn">
-                  <button
-                    type="submit"
-                    className={`btn btn-subtle-blue ${s.searchBtn}`}
-                  >
-                    <i className="fa fa-search text-light" />
-                  </button>
-                </span>
-              </div>
-            </Widget>
+          <Col lg={6} xl={6} md={12} className="mt-5">
+            <Card>
+              <CardImg top width="100%" src={udyog} alt="Card image cap" />
+              <CardBody>
+                <CardTitle tag="h5">Udhyog</CardTitle>
+                <CardSubtitle tag="h6" className="mb-2 text-muted">15 April 2021</CardSubtitle>
+                <CardText> Here, you will be provided with a real life engineering challenge, straight from a reputed Chemical based industry. Its high time to show your worth to the industry.</CardText>
+                <Button
+                  color="primary"
+                  id="show-info-message"
+                  href="#/events/Udyog"
+                >
+                  Link
+                </Button>
+              </CardBody>
+            </Card>
           </Col>
         </Row>
-
+        <br />
+        <br />
         <Row>
-          <Col lg={6} xl={4} xs={12}>
-            <Widget title={<h6> USERBASE GROWTH </h6>} close settings>
-              <div className="stats-row">
-                <div className="stat-item">
-                  <h6 className="name">Overall Growth</h6>
-                  <p className="value">76.38%</p>
-                </div>
-                <div className="stat-item">
-                  <h6 className="name">Montly</h6>
-                  <p className="value">10.38%</p>
-                </div>
-                <div className="stat-item">
-                  <h6 className="name">24h</h6>
-                  <p className="value">3.38%</p>
-                </div>
-              </div>
-              <Progress
-                color="success"
-                value="60"
-                className="bg-subtle-blue progress-xs"
-              />
-              <p>
-                <small>
-                  <span className="circle bg-default text-white mr-2">
-                    <i className="fa fa-chevron-up" />
-                  </span>
-                </small>
-                <span className="fw-semi-bold">&nbsp;17% higher</span>
-                &nbsp;than last month
-              </p>
-            </Widget>
+          <Col lg={6} xl={6} md={12} className="mt-5">
+            <Card>
+              <CardImg top width="100%" src={Chemcoding} alt="Card image cap" />
+              <CardBody>
+                <CardTitle tag="h5">ChemCoding</CardTitle>
+                <CardSubtitle tag="h6" className="mb-2 text-muted">15 April 2021</CardSubtitle>
+                <CardText> Osmoze brings to you the opportunity to showcase logical thinking and dexterity with algorithms in the form of ChemCoding, an exhilarating coding event.</CardText>
+                <Button
+                  color="primary"
+                  id="show-info-message"
+                  href="/#/events/chemCoding"
+                >
+                  Link
+                </Button>
+
+              </CardBody>
+            </Card>
           </Col>
-          <Col lg={6} xl={4} xs={12}>
-            <Widget title={<h6> TRAFFIC VALUES </h6>} close settings>
-              <div className="stats-row">
-                <div className="stat-item">
-                  <h6 className="name">Overall Values</h6>
-                  <p className="value">17 567 318</p>
-                </div>
-                <div className="stat-item">
-                  <h6 className="name">Montly</h6>
-                  <p className="value">55 120</p>
-                </div>
-                <div className="stat-item">
-                  <h6 className="name">24h</h6>
-                  <p className="value">9 695</p>
-                </div>
-              </div>
-              <Progress
-                color="danger"
-                value="60"
-                className="bg-subtle-blue progress-xs"
-              />
-              <p>
-                <small>
-                  <span className="circle bg-default text-white mr-2">
-                    <i className="fa fa-chevron-down" />
-                  </span>
-                </small>
-                <span className="fw-semi-bold">&nbsp;8% lower</span>
-                &nbsp;than last month
-              </p>
-            </Widget>
+          <Col lg={6} xl={6} md={12} className="mt-5">
+            <Card>
+              <CardImg top width="100%" src={Chemathon} alt="Card image cap" />
+              <CardBody>
+                <CardTitle tag="h5">Chemathon</CardTitle>
+                <CardSubtitle tag="h6" className="mb-2 text-muted">15 April 2021</CardSubtitle>
+                <CardText>  A series of extremely competitive events needing you to get into the shoes for the internship session.        </CardText>
+                <Button
+                  color="primary"
+                  id="show-info-message"
+                  href="#/events/Chemathon"
+                >
+                  Link
+                </Button>
+              </CardBody>
+            </Card>
           </Col>
-          <Col lg={6} xl={4} xs={12}>
-            <Widget title={<h6> RANDOM VALUES </h6>} close settings>
-              <div className="stats-row">
-                <div className="stat-item">
-                  <h6 className="name fs-sm">Overcome T.</h6>
-                  <p className="value">104.85%</p>
-                </div>
-                <div className="stat-item">
-                  <h6 className="name fs-sm">Takeoff Angle</h6>
-                  <p className="value">14.29&deg;</p>
-                </div>
-                <div className="stat-item">
-                  <h6 className="name fs-sm">World Pop.</h6>
-                  <p className="value">7,211M</p>
-                </div>
-              </div>
-              <Progress
-                color="bg-primary"
-                value="60"
-                className="bg-subtle-blue progress-xs"
-              />
-              <p>
-                <small>
-                  <span className="circle bg-default text-white mr-2">
-                    <i className="fa fa-plus" />
-                  </span>
-                </small>
-                <span className="fw-semi-bold">&nbsp;8 734 higher</span>
-                &nbsp;than last month
-              </p>
-            </Widget>
+
+        </Row>
+        <h1 className="page-title">
+          <small>
+            <small>Pre-Events</small>
+          </small>
+        </h1>
+        <Row>
+          <Col lg={4} xl={4} xs={12} className="mt-5">
+            <Card>
+              <CardImg top width="100%" src={osmoclick} alt="Card image cap" />
+              <CardBody>
+                <CardTitle tag="h5">OsmoClick</CardTitle>
+              </CardBody>
+            </Card>
+          </Col>
+      &nbsp;
+      &nbsp;
+      <Col lg={4} xl={4} xs={12} className="mt-5">
+            <Card>
+              <CardImg top width="100%" src={OsmoCross} alt="Card image cap" />
+              <CardBody>
+                <CardTitle tag="h5">OsmoCross</CardTitle>
+              </CardBody>
+            </Card>
           </Col>
         </Row>
-
-        <Row>
-          <Col lg={4} xs={12}>
-            <Widget
-              title={
-                <h6>
-                  <span className="badge badge-success mr-2">New</span> Messages
-                </h6>
-              }
-              refresh
-              close
-            >
-              <div className="widget-body undo_padding">
-                <div className="list-group list-group-lg">
-                  <button className="list-group-item text-left">
-                    <span className="thumb-sm float-left mr">
-                      <img
-                        className="rounded-circle"
-                        src={peopleA2}
-                        alt="..."
-                      />
-                      <i className="status status-bottom bg-success" />
-                    </span>
-                    <div>
-                      <h6 className="m-0">Chris Gray</h6>
-                      <p className="help-block text-ellipsis m-0">
-                        Hey! What&apos;s up? So many times since we
-                      </p>
-                    </div>
-                  </button>
-                  <button className="list-group-item text-left">
-                    <span className="thumb-sm float-left mr">
-                      <img
-                        className="rounded-circle"
-                        src={peopleA4}
-                        alt="..."
-                      />
-                      <i className="status status-bottom bg-success" />
-                    </span>
-                    <div>
-                      <h6 className="m-0">Jamey Brownlow</h6>
-                      <p className="help-block text-ellipsis m-0">
-                        Good news coming tonight. Seems they agreed to proceed
-                      </p>
-                    </div>
-                  </button>
-                  <button className="list-group-item text-left">
-                    <span className="thumb-sm float-left mr">
-                      <img
-                        className="rounded-circle"
-                        src={peopleA1}
-                        alt="..."
-                      />
-                      <i className="status status-bottom bg-primary" />
-                    </span>
-                    <div>
-                      <h6 className="m-0">Livia Walsh</h6>
-                      <p className="help-block text-ellipsis m-0">
-                        Check my latest email plz!
-                      </p>
-                    </div>
-                  </button>
-                  <button className="list-group-item text-left">
-                    <span className="thumb-sm float-left mr">
-                      <img
-                        className="rounded-circle"
-                        src={peopleA5}
-                        alt="..."
-                      />
-                      <i className="status status-bottom bg-danger" />
-                    </span>
-                    <div>
-                      <h6 className="m-0">Jaron Fitzroy</h6>
-                      <p className="help-block text-ellipsis m-0">
-                        What about summer break?
-                      </p>
-                    </div>
-                  </button>
-                </div>
-              </div>
-              <footer className="bg-widget-transparent mt">
-                <input
-                  type="search"
-                  className="form-control form-control-sm bg-custom-dark border-0"
-                  placeholder="Search"
-                />
-              </footer>
-            </Widget>
-          </Col>
-
-          <Col lg={4} xs={12}>
-            <Widget
-              title={
-                <h6>
-                  {" "}
-                  Market <span className="fw-semi-bold">Stats</span>
-                </h6>
-              }
-              close
-            >
-              <div className="widget-body">
-                <h3>$720 Earned</h3>
-                <p className="fs-mini text-muted mb mt-sm">
-                  Target <span className="fw-semi-bold">$820</span> day earnings
-                  is <span className="fw-semi-bold">96%</span> reached.
-                </p>
-              </div>
-              <div className={`widget-table-overflow ${s.table}`}>
-                <Table striped size="sm">
-                  <thead className="no-bd">
-                    <tr>
-                      <th>
-                        <div className="checkbox abc-checkbox">
-                          <Input
-                            className="mt-0"
-                            id="checkbox210"
-                            type="checkbox"
-                            onClick={() => this.checkTable(0)}
-                            checked={this.state.checkedArr[0]}
-                            readOnly
-                          />{" "}
-                          <Label for="checkbox210" />
-                        </div>
-                      </th>
-                      <th>&nbsp;</th>
-                      <th>&nbsp;</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>
-                        <div className="checkbox abc-checkbox">
-                          <Input
-                            className="mt-0"
-                            id="checkbox212"
-                            type="checkbox"
-                            onClick={() => this.checkTable(1)}
-                            checked={this.state.checkedArr[1]}
-                            readOnly
-                          />{" "}
-                          <Label for="checkbox212" />
-                        </div>
-                      </td>
-                      <td>HP Core i7</td>
-                      <td className="text-align-right fw-semi-bold">$346.1</td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <div className="checkbox abc-checkbox">
-                          <Input
-                            className="mt-0"
-                            id="checkbox214"
-                            onClick={() => this.checkTable(2)}
-                            type="checkbox"
-                            checked={this.state.checkedArr[2]}
-                            readOnly
-                          />{" "}
-                          <Label for="checkbox214" />
-                        </div>
-                      </td>
-                      <td>Air Pro</td>
-                      <td className="text-align-right fw-semi-bold">$533.1</td>
-                    </tr>
-                  </tbody>
-                </Table>
-              </div>
-
-              <div
-                className="widget-body mt-xlg chart-overflow-bottom"
-                style={{ height: "100px" }}
-              >
-                <Rickshaw height={100} />
-              </div>
-            </Widget>
-          </Col>
-
-          <Col lg={4} xs={12}>
-            <Widget
-              title={<h6>Calendar</h6>}
-              settings
-              close
-              bodyClass={"pt-2 px-0 py-0"}
-            >
-              <Calendar />
-              <div className="list-group fs-mini">
-                <button className="list-group-item text-ellipsis">
-                  <span className="badge badge-pill badge-primary float-right">
-                    6:45
-                  </span>
-                  Weed out the flower bed
-                </button>
-                <button className="list-group-item text-ellipsis">
-                  <span className="badge badge-pill badge-success float-right">
-                    9:41
-                  </span>
-                  Stop world water pollution
-                </button>
-              </div>
-            </Widget>
-          </Col>
-        </Row>
+        <br />
+        <br />
+        <br />
+        <br />
       </div>
     );
   }

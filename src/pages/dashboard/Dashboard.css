@@ -1,0 +1,11 @@
+.event-card {
+    background-color: #14193b;
+    color: rgba(255, 255,255, 0.65);
+    margin-bottom: 3rem;
+}
+
+.pre-event-card {
+    background-color: #14193b;
+    margin-bottom: 1.5rem;
+
+}

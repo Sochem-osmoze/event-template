@@ -97,7 +97,7 @@ class Layout extends React.Component {
                 </CSSTransition>
               </TransitionGroup>
               <footer className={s.contentFooter}>
-                  Osmoze ©2021 This website is made by Sochem Informatics Team
+                  Osmoze ©2021 This website is made with &#10084;   by Sochem Informatics Team
               </footer>
             </main>
           </Hammer>
