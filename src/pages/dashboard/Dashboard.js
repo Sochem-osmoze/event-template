@@ -17,12 +17,12 @@ import {
 
 import s from "./Dashboard.module.scss";
 
-import Adhyan from "../../assets/people/Adhyan.jpg";
-import udyog from "../../assets/people/udyog.jpg";
-import Chemcoding from "../../assets/people/Chemcoding.jpg";
+import Adhyan from "../../assets/people/AdhyanImg.jpg";
+import udyog from "../../assets/people/Udyog.jpg";
+import Chemcoding from "../../assets/people/ChemcodingImg.jpg";
 import osmoclick from "../../assets/people/osmoclick.jpg";
 import OsmoCross from "../../assets/people/OsmoCross.jpg";
-import Chemathon from "../../assets/people/Chemathon.jpg";
+import Chemathon from "../../assets/people/ChemathonImg.jpg";
 
 
 class Dashboard extends React.Component {
@@ -172,7 +172,16 @@ class Dashboard extends React.Component {
             <Card>
               <CardImg top width="100%" src={OsmoCross} alt="Card image cap" />
               <CardBody>
-                <CardTitle tag="h5">OsmoCross</CardTitle>
+                <CardTitle tag="h5">OsmoCross I</CardTitle>
+                <CardText>
+                OsmoCross 1 held on 2nd April saw some nail biting competition.<br/><br/>
+                <ol>
+                    <li>1. Prince 20045093</li>
+                    <li>2. Vedant Chitnis 20045139</li>
+                    <li>3. Kushagra Singh 18045059</li>
+                </ol>
+                Get ready for the more exciting OsmoCross 2 coming on 9th April.
+                </CardText>
               </CardBody>
             </Card>
           </Col>

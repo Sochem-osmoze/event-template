@@ -6,6 +6,36 @@ import './text-body.css';
 
 const ChemCoding = () => (
   <div >
+
+<Row className="row justify-content-center">
+      <Col  xs={"12"} lg={"8"}  >
+        <Widget
+          title={
+            <h5>
+              chemcoding{" "}
+              <small className="text-muted">7 April 2021</small>
+            </h5>
+          }
+          collapse
+          close
+
+
+        >
+          <h4 className="event-heading mt-5  display-5">Registerations have started</h4>
+          <div className="widget-padding-md w-100 h-100 text-left border rounded">
+            <p className="text-bodyy">
+              <>Registrations for ChemCoding have started: <a href="https://docs.google.com/forms/d/1M8l6AHtYyLDY_20lAAjgRUhMDV-vmXjQJeXfI4nIFDM/edit">
+                Click here </a>
+                to register.
+              </>
+              <br/> <br/>
+              <strong>The last day for registration is 12th April 2021. </strong>
+            </p>
+          </div>
+        </Widget>
+      </Col>
+    </Row>
+
     {/* This is New Widget */}
     <Row className="row justify-content-center">
       <Col  xs={"12"} lg={"8"}  >
@@ -13,7 +43,7 @@ const ChemCoding = () => (
           title={
             <h5>
               chemcoding{"  "}
-              <small className="text-muted">25 March 2020</small>
+              <small className="text-muted">6 April 2021</small>
             </h5>
           }
           collapse
@@ -26,19 +56,17 @@ const ChemCoding = () => (
             <p className="text-bodyy">
             ChemCoding is a competitive programming event that will test your problem solving and programming skills. You will be given a series of algorithmic puzzles and problems and you will have to come up with not only an accurate but an optimal solution as quickly as possible.
             </p>
-            <p className="text-bodyy">
-            <strong>Registrations will begin on 26th March</strong>
-            </p>
+              <strong>Timeline</strong>
+                <li>Registrations start on 7th April, 2021.</li>
+                <li>The last day to fill the form is 12 th April 2021.</li>
+                <li>Further details regarding the test and the interviews will rolled out in due time.</li>
+                <hr/>
             <p className="text-bodyy">
             Event Coordinators:
             <ul>
-              <li>Nisha Agarwal: 9521409751</li>
-              <li>Abhishek Singh: 9460878830</li>
+              <li>Aman Ashish: 8340477566</li>
+              <li>Richa Singh: 8440937689</li>
             </ul>
-            <div class="timeline-footer">
-            <a href="https://www.sochem.org" class="btn btn-primary btn-sm">SoChem Website</a><br></br><br></br>
-            <a href="https://www.osmoze.in" class="btn btn-danger btn-sm">Osmoze Home</a>
-          </div>
             </p>
           </div>
         </Widget>
@@ -63,7 +91,8 @@ const ChemCoding = () => (
           <h4 className="event-heading mt-5  display-5">ChemCoding has turned un-proctored</h4>
           <div className="widget-padding-md w-100 h-100 text-left border rounded">
             <p className="text-bodyy">
-                As a part of the decision taken today by the Osmoze Core team, all events have turned online. The new cash prize for Chem Coding will be INR. 5000.
+                As a part of the decision taken today by the Osmoze Core team, all events will be conducted online this year.
+                 The new cash prize for Chem Coding will be INR. 5000.
                </p>
 
           </div>
