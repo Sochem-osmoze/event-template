@@ -77,7 +77,7 @@ class Dashboard extends React.Component {
           </small>
         </h1>
         <Row>
-          <Col lg={6} xl={6} md={12} className="mt-5">
+          <Col lg={5} xl={5} md={12} className="mt-5">
             <Card>
               <CardImg top width="100%" src={Adhyan} alt="Card image cap" />
               <CardBody>
@@ -94,7 +94,7 @@ class Dashboard extends React.Component {
               </CardBody>
             </Card>
           </Col>
-          <Col lg={6} xl={6} md={12} className="mt-5">
+          <Col lg={5} xl={5} md={12} className="mt-5">
             <Card>
               <CardImg top width="100%" src={udyog} alt="Card image cap" />
               <CardBody>
@@ -115,7 +115,7 @@ class Dashboard extends React.Component {
         <br />
         <br />
         <Row>
-          <Col lg={6} xl={6} md={12} className="mt-5">
+          <Col lg={5} xl={5} md={12} className="mt-5">
             <Card>
               <CardImg top width="100%" src={Chemcoding} alt="Card image cap" />
               <CardBody>
@@ -133,7 +133,7 @@ class Dashboard extends React.Component {
               </CardBody>
             </Card>
           </Col>
-          <Col lg={6} xl={6} md={12} className="mt-5">
+          <Col lg={5} xl={5} md={12} className="mt-5">
             <Card>
               <CardImg top width="100%" src={Chemathon} alt="Card image cap" />
               <CardBody>
@@ -152,7 +152,7 @@ class Dashboard extends React.Component {
           </Col>
 
         </Row>
-        <h1 className="page-title">
+        <h1 className="page-title mt-5">
           <small>
             <small>Pre-Events</small>
           </small>
