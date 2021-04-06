@@ -156,31 +156,23 @@ class Header extends React.Component {
           <Nav className="ml-md-0">
             <NavItem>
               <NavLink
-                onClick="https://www.google.com"
+                onClick="https://osmoze.in"
                 className={`${s.navItem} text-white`}
-                href="https://www.google.com"
+                href="https://osmoze.in"
               >
                 <home className={"glyphicon glyphicon-home"} />
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink
-                onClick="https://www.google.com"
+                onClick="https://osmoze.in/announcement"
                 className={`${s.navItem} text-white`}
-                href="https://www.google.com"
+                href="https://osmoze.in/announcement"
               >
                 <home className={"glyphicon glyphicon-glyph-bell"} />
               </NavLink>
             </NavItem>
-            <NavItem>
-              <NavLink
-                onClick="https://www.google.com"
-                className={`${s.navItem} text-white`}
-                href="https://www.google.com"
-              >
-                <home className={"glyphicon glyphicon-glyph-camera"} />
-              </NavLink>
-            </NavItem>
+
 
           </Nav>
           {/* <Collapse
