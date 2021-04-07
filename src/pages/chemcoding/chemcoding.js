@@ -21,10 +21,10 @@ const ChemCoding = () => (
 
 
         >
-          <h4 className="event-heading mt-5  display-5">Registerations have started</h4>
+          <h4 className="event-heading mt-5  display-5">Registrations have started</h4>
           <div className="widget-padding-md w-100 h-100 text-left border rounded">
             <p className="text-bodyy">
-              <>Registrations for ChemCoding have started: <a href="https://docs.google.com/forms/d/1M8l6AHtYyLDY_20lAAjgRUhMDV-vmXjQJeXfI4nIFDM/edit" target="_blank">
+              <>Registration for ChemCoding has started: <a href="https://docs.google.com/forms/d/1M8l6AHtYyLDY_20lAAjgRUhMDV-vmXjQJeXfI4nIFDM/edit" target="_blank">
                 Click here </a>
                 to register.
               </>
@@ -92,7 +92,7 @@ const ChemCoding = () => (
           <div className="widget-padding-md w-100 h-100 text-left border rounded">
             <p className="text-bodyy">
                 As a part of the decision taken today by the Osmoze Core team, all events will be conducted online this year.
-                 The new cash prize for Chem Coding will be INR. 5000.
+                 The new cash prize for Chem Coding will be INR. 10,000.
                </p>
 
           </div>

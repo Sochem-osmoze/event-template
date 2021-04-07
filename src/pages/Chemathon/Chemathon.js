@@ -11,7 +11,7 @@ const Chemathon = () => (
         <Widget
           title={
             <h5>
-              chemcoding{" "}
+              Chemathon{" "}
               <small className="text-muted">7 April 2021</small>
             </h5>
           }
@@ -20,10 +20,10 @@ const Chemathon = () => (
 
 
         >
-          <h4 className="event-heading mt-5  display-5">Registerations have started</h4>
+          <h4 className="event-heading mt-5  display-5">Registrations have started</h4>
           <div className="widget-padding-md w-100 h-100 text-left border rounded">
             <p className="text-bodyy">
-              <>Registrations for Chemathon have started: <a href="https://docs.google.com/forms/d/1AgnKBO-kkvo3Y0RxZUGivQ9s-ZnVBBC3WyaTxUT8UBQ/edit" target="_blank">
+              <>Registration for Chemathon has started: <a href="https://docs.google.com/forms/d/1AgnKBO-kkvo3Y0RxZUGivQ9s-ZnVBBC3WyaTxUT8UBQ/edit" target="_blank">
                 Click here </a>
                 to register.
               </>

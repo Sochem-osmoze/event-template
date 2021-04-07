@@ -24,7 +24,9 @@ const Adhyayan = () => (
           <div className="widget-padding-md w-100 h-100 text-left border rounded">
             <p className="text-bodyy">
                  As a part of the decision taken today by the Osmoze Core team, all events will be conducted online this year.
-                 The new cash prize for Adhyayan will be INR. 10,000.               
+                 The new cash prize for Adhyayan will be INR. 10,000. 
+                 <br></br><br></br>
+                 <strong>Registrations will start soon!  </strong>               
             </p>
 
           </div>

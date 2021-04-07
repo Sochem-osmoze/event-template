@@ -22,8 +22,8 @@ import udyog from "../../assets/people/Udyog.jpg";
 import Chemcoding from "../../assets/people/ChemcodingImg.jpg";
 import osmoclick from "../../assets/people/osmoclick.jpg";
 import OsmoCross from "../../assets/people/OsmoCross.jpg";
-import Chemathon from "../../assets/people/ChemathonImg.jpg";
-
+import Chemathon from  "../../assets/people/ChemathonImg.jpg";
+import ComingSoon from "../../assets/people/cominsoon.jpg";
 
 class Dashboard extends React.Component {
   constructor(props) {
@@ -79,44 +79,6 @@ class Dashboard extends React.Component {
         <Row>
           <Col lg={5} xl={5} md={12} className="mt-5">
             <Card>
-              <CardImg top width="100%" src={Adhyan} alt="Card image cap" />
-              <CardBody>
-                <CardTitle tag="h5">Adhyayan</CardTitle>
-                <CardSubtitle tag="h6" className="mb-2 text-muted">15 April 2021</CardSubtitle>
-                <CardText>Ever fancied yourself as a maverick of management! Come test your astute skills in solving a real-life case study in the event, ADHYAYAN.</CardText>
-                <Button
-                  color="primary"
-                  id="show-info-message"
-                  href="#/events/Adhyayan"
-                >
-                  Link
-                </Button>
-              </CardBody>
-            </Card>
-          </Col>
-          <Col lg={5} xl={5} md={12} className="mt-5">
-            <Card>
-              <CardImg top width="100%" src={udyog} alt="Card image cap" />
-              <CardBody>
-                <CardTitle tag="h5">Udhyog</CardTitle>
-                <CardSubtitle tag="h6" className="mb-2 text-muted">15 April 2021</CardSubtitle>
-                <CardText> Here, you will be provided with a real life engineering challenge, straight from a reputed Chemical based industry. Its high time to show your worth to the industry.</CardText>
-                <Button
-                  color="primary"
-                  id="show-info-message"
-                  href="#/events/Udyog"
-                >
-                  Link
-                </Button>
-              </CardBody>
-            </Card>
-          </Col>
-        </Row>
-        <br />
-        <br />
-        <Row>
-          <Col lg={5} xl={5} md={12} className="mt-5">
-            <Card>
               <CardImg top width="100%" src={Chemcoding} alt="Card image cap" />
               <CardBody>
                 <CardTitle tag="h5">ChemCoding</CardTitle>
@@ -152,6 +114,45 @@ class Dashboard extends React.Component {
           </Col>
 
         </Row>
+        <br></br><br/>
+        <Row>
+          <Col lg={5} xl={5} md={12} className="mt-5">
+            <Card>
+              <CardImg top width="100%" src={ComingSoon} alt="Card image cap" />
+              <CardBody>
+                <CardTitle tag="h5">Adhyayan</CardTitle>
+                <CardSubtitle tag="h6" className="mb-2 text-muted">15 April 2021</CardSubtitle>
+                <CardText>Ever fancied yourself as a maverick of management! Come test your astute skills in solving a real-life case study in the event, ADHYAYAN.</CardText>
+                <Button
+                  color="primary"
+                  id="show-info-message"
+                  href="#/events/Adhyayan"
+                >
+                  Link
+                </Button>
+              </CardBody>
+            </Card>
+          </Col>
+          <Col lg={5} xl={5} md={12} className="mt-5">
+            <Card>
+              <CardImg top width="100%" src={ComingSoon} alt="Card image cap" />
+              <CardBody>
+                <CardTitle tag="h5">Udhyog</CardTitle>
+                <CardSubtitle tag="h6" className="mb-2 text-muted">15 April 2021</CardSubtitle>
+                <CardText> Here, you will be provided with a real life engineering challenge, straight from a reputed Chemical based industry. Its high time to show your worth to the industry.</CardText>
+                <Button
+                  color="primary"
+                  id="show-info-message"
+                  href="#/events/Udyog"
+                >
+                  Link
+                </Button>
+              </CardBody>
+            </Card>
+          </Col>
+        </Row>
+        <br />
+
         <h1 className="page-title mt-5">
           <small>
             <small>Pre-Events</small>
