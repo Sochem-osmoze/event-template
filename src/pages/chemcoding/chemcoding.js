@@ -24,7 +24,7 @@ const ChemCoding = () => (
           <h4 className="event-heading mt-5  display-5">Registerations have started</h4>
           <div className="widget-padding-md w-100 h-100 text-left border rounded">
             <p className="text-bodyy">
-              <>Registrations for ChemCoding have started: <a href="https://docs.google.com/forms/d/1M8l6AHtYyLDY_20lAAjgRUhMDV-vmXjQJeXfI4nIFDM/edit">
+              <>Registrations for ChemCoding have started: <a href="https://docs.google.com/forms/d/1M8l6AHtYyLDY_20lAAjgRUhMDV-vmXjQJeXfI4nIFDM/edit" target="_blank">
                 Click here </a>
                 to register.
               </>

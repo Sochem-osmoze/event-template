@@ -79,7 +79,7 @@ class Sidebar extends React.Component {
                 }}
             >
                 <header className={s.logo}>
-                    <a href="https://www.osmoze.in"><span
+                    <a href="https://osmoze.in"><span
                         className="fw-bold">Osmoze</span></a>
                 </header>
                 <ul className={s.nav}>

@@ -23,7 +23,7 @@ const Chemathon = () => (
           <h4 className="event-heading mt-5  display-5">Registerations have started</h4>
           <div className="widget-padding-md w-100 h-100 text-left border rounded">
             <p className="text-bodyy">
-              <>Registrations for Chemathon have started: <a href="https://docs.google.com/forms/d/1AgnKBO-kkvo3Y0RxZUGivQ9s-ZnVBBC3WyaTxUT8UBQ/edit">
+              <>Registrations for Chemathon have started: <a href="https://docs.google.com/forms/d/1AgnKBO-kkvo3Y0RxZUGivQ9s-ZnVBBC3WyaTxUT8UBQ/edit" target="_blank">
                 Click here </a>
                 to register.
               </>
