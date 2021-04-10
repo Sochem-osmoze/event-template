@@ -17,13 +17,14 @@ import {
 
 import s from "./Dashboard.module.scss";
 
-import Adhyan from "../../assets/people/AdhyanImg.jpg";
-import udyog from "../../assets/people/Udyog.jpg";
+// import Adhyan from "../../assets/people/AdhyanImg.jpg";
+// import udyog from "../../assets/people/Udyog.jpg";
 import Chemcoding from "../../assets/people/ChemcodingImg.jpg";
 import osmoclick from "../../assets/people/osmoclick.jpg";
 import OsmoCross from "../../assets/people/OsmoCross.jpg";
 import Chemathon from  "../../assets/people/ChemathonImg.jpg";
 import ComingSoon from "../../assets/people/cominsoon.jpg";
+import GuestLecture from "../../assets/people/guest_lecture.jpg";
 
 class Dashboard extends React.Component {
   constructor(props) {
@@ -159,6 +160,21 @@ class Dashboard extends React.Component {
           </small>
         </h1>
         <Row>
+        <Col lg={4} xl={4} xs={12} className="mt-5">
+            <Card>
+              <CardImg top width="100%" src={GuestLecture} alt="Card image cap" />
+              <CardBody>
+                <CardTitle tag="h5">Guest Lecture</CardTitle>
+                <CardSubtitle tag="h6" className="mb-2 text-muted">11 April 2021 (8-9 pm)</CardSubtitle>
+                <CardText>
+                Mr. Mehul Bapat, an esteemed alumnus of IIT(BHU) Varanasi, and currently working as a research assistant at Carnegie Mellon University, USA.
+                <br/>
+                Will be enlightening us on the role of computational research in Chemical Engineering.  
+      
+                </CardText>
+              </CardBody>
+            </Card>
+          </Col>
           <Col lg={4} xl={4} xs={12} className="mt-5">
             <Card>
               <CardImg top width="100%" src={osmoclick} alt="Card image cap" />
@@ -167,8 +183,6 @@ class Dashboard extends React.Component {
               </CardBody>
             </Card>
           </Col>
-      &nbsp;
-      &nbsp;
       <Col lg={4} xl={4} xs={12} className="mt-5">
             <Card>
               <CardImg top width="100%" src={OsmoCross} alt="Card image cap" />
