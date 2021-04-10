@@ -29,7 +29,7 @@ const ChemCoding = () => (
                 to register.
               </>
               <br/> <br/>
-              <strong>The last day for registration is 12th April 2021. </strong>
+              <strong>The last day for registration is 14th April 2021. </strong>
             </p>
           </div>
         </Widget>
