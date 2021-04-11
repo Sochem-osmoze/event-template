@@ -37,7 +37,7 @@ const Udyogg = () => (
             You have to solve the situations that are mentioned in the problem statement.<br/>
             We expect you to participate in large numbers as this is something you will enjoy solving !!!
             <br/><br/>
-            <strong>Click <a href="https://docs.google.com/forms/d/e/1FAIpQLSe3eaqIHTha7PXLpSmqyewemwKZoarNnOXAun3EwQxok0wz1g/viewform"> here </a>to register.
+            <strong>Click <a target="blank" href="https://docs.google.com/forms/d/e/1FAIpQLSe3eaqIHTha7PXLpSmqyewemwKZoarNnOXAun3EwQxok0wz1g/viewform"> here </a>to register.
             The registrations are open till 14th April, 11:59 PM. <br/><br/>            </strong>
 
             The event structure, rules and timeline are all available in the Problem Statement which can be found below.
@@ -48,7 +48,7 @@ const Udyogg = () => (
             Tejaswita Som - +91-8765001039 - tejaswitasom.che18@itbhu.ac.in<br/>
             Suraj Kumar Maurya - +91-7860610532 - surajkmaurya.che18@itbhu.ac.in   <br/> 
             <br/>
-            <a href={PS}>Download PS</a>      
+            <a target="blank" href={PS}>Download PS</a>      
             </p>
 
           </div>

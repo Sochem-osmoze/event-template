@@ -25,6 +25,7 @@ import OsmoCross from "../../assets/people/OsmoCross.jpg";
 import Chemathon from  "../../assets/people/ChemathonImg.jpg";
 import ComingSoon from "../../assets/people/cominsoon.jpg";
 import UdyogImg from '../../assets/people/UdyogImg.jpg';
+import AdhyanImg from '../../assets/people/AdhyanImg.jpg';
 import GuestLecture from "../../assets/people/guest_lecture.jpg";
 
 class Dashboard extends React.Component {
@@ -120,7 +121,7 @@ class Dashboard extends React.Component {
         <Row>
           <Col lg={5} xl={5} md={12} className="mt-5">
             <Card>
-              <CardImg top width="100%" src={ComingSoon} alt="Card image cap" />
+              <CardImg top width="100%" src={AdhyanImg} alt="Card image cap" />
               <CardBody>
                 <CardTitle tag="h5">Adhyayan</CardTitle>
                 <CardSubtitle tag="h6" className="mb-2 text-muted">15 April 2021</CardSubtitle>
