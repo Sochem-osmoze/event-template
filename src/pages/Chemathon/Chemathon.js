@@ -11,6 +11,57 @@ const Chemathon = () => (
           title={
             <h5>
               Chemathon{" "}
+              <small className="text-muted">15 April 2021</small>
+            </h5>
+          }
+          collapse
+          close
+
+
+        >
+          <h4 className="event-heading mt-5  display-5">Round I results out!</h4>
+          <div className="widget-padding-md w-100 h-100 text-left border rounded">
+            <p className="text-bodyy">
+                  
+                  The highest percentage scored is 53.3%, while the average percentage stood at 35.6.
+                  <br/>
+                  For those who didn't get selected for the second round, don't be disheartened. 
+                  We hope this test made you learn something new, and you all had a fantastic experience.
+                  <br/><br/>
+                  <b>
+                  The shortlisted candidates are:<br/><br/>
+                  1) Pokala Gouthami Sree-     20045088<br/>
+                  2) Prince-     20045093<br/>
+                  3) Shashwat Kesharwani-     20045120<br/>
+                  4) Hritik Kumar-     19045053<br/>
+                  5) Shivesh kumar-      19045133<br/>
+                  6) Yatharth Maanik-     20045150<br/>
+                  7) Yuvraj Neema-     19045150<br/>
+                  8) Sahil Setia-     19045094<br/>
+                  9) Swarn Shahi-     20045131<br/>
+                  10) Aditya Kumar Singh-     20045008<br/>
+                  11) Harsh Singhal-          19045051<br/>
+                  12) Shubham Nehete-     20045079 <br/>
+                  </b>
+                  <br/><br/>
+                  The shortlisted candidates are required to fill in the given form by 16th April 11:59 pm. 
+                  <br/><br/>
+                  You would require your Resume before filling the form.
+                  <br/><br/>
+                  Link to the form: <a href="https://forms.gle/WqVcPmcC77H12RkY9">Click Here</a>
+                  <br/>
+                  The interviews will be taken on 17th April 2021 via Telephonic/Zoom/Google Meet. 
+            </p>
+          </div>
+        </Widget>
+      </Col>
+    </Row>
+<Row className="row justify-content-center">
+      <Col  xs={"12"} lg={"8"}  >
+        <Widget
+          title={
+            <h5>
+              Chemathon{" "}
               <small className="text-muted">14 April 2021</small>
             </h5>
           }
