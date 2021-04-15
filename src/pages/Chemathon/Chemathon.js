@@ -5,6 +5,31 @@ import Widget from "../../components/Widget/Widget";
 
 const Chemathon = () => (
   <div >
+<Row className="row justify-content-center">
+      <Col  xs={"12"} lg={"8"}  >
+        <Widget
+          title={
+            <h5>
+              Chemathon{" "}
+              <small className="text-muted">14 April 2021</small>
+            </h5>
+          }
+          collapse
+          close
+
+
+        >
+          <h4 className="event-heading mt-5  display-5">Round I</h4>
+          <div className="widget-padding-md w-100 h-100 text-left border rounded">
+            <p className="text-bodyy">
+              Chemathon Round I will be conducted today at 09:00 PM. All the registered participants will receive the information
+              for this round directly through mail.
+              <br/> <br/>
+            </p>
+          </div>
+        </Widget>
+      </Col>
+    </Row>
 
 <Row className="row justify-content-center">
       <Col  xs={"12"} lg={"8"}  >

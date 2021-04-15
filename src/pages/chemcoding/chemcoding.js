@@ -7,6 +7,44 @@ import './text-body.css';
 const ChemCoding = () => (
   <div >
 
+
+<Row className="row justify-content-center">
+      <Col  xs={"12"} lg={"8"}  >
+        <Widget
+          title={
+            <h5>
+              chemcoding{" "}
+              <small className="text-muted">15 April 2021</small>
+            </h5>
+          }
+          collapse
+          close
+
+
+        >
+          <h4 className="event-heading mt-5  display-5">Contest time out!</h4>
+          <div className="widget-padding-md w-100 h-100 text-left border rounded">
+            <p className="text-bodyy">
+              <strong>IMPORTANT INSTRUCTIONS FOR THE EVENT:</strong><br/><br/>
+              1.) The test will be held on <a href="hackerrank.com">hackerrank.com</a>, so you are suggested to have an account created there.
+              <br/>
+              2.) Provide your handle in the form <a href="https://docs.google.com/forms/d/e/1FAIpQLSc-EtVzef5y5nbkE8nK6KMrHtebLt7cVb-KtxEmknyYciM7BQ/viewform?gxids=7628/edit">here</a>.
+              <br/>
+              3.) Go to <a href="https://www.hackerrank.com/chemcoding21">https://www.hackerrank.com/chemcoding21</a>
+              <br/>
+              4.) Register for the event using the same handle which you have mentioned in the form.<br/>
+              5.) Only SoChem registered members are entitled to prize money.
+              <br/><br/>
+
+              There might be a small 10 minutes discussion round for the participants entitled to prize money right after the contest ends. This is done to avoid any chances of plagiarism during the contest.
+              <br/><br/>
+              Code and compete!
+            </p>
+          </div>
+        </Widget>
+      </Col>
+    </Row>
+
 <Row className="row justify-content-center">
       <Col  xs={"12"} lg={"8"}  >
         <Widget
