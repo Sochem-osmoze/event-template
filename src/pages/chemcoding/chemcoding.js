@@ -6,7 +6,41 @@ import './text-body.css';
 
 const ChemCoding = () => (
   <div >
+    
+{/* This is New Widget */}
+<Row className="row justify-content-center">
+      <Col  xs={"12"} lg={"8"}  >
+        <Widget
+          title={
+            <h5>
+              ChemCoding{" "}
+              <small className="text-muted">18 april 2021</small>
+            </h5>
+          }
+          collapse
+          close
 
+
+        >
+          <h4 className="event-heading mt-5  display-5">Results are Out!</h4>
+          <div className="widget-padding-md w-100 h-100 text-left border rounded">
+            <p className="text-bodyy">
+              <b>
+              1. Rohit Jain - 19045088 (Rs. 3000/-)<br/>
+              2. Eshaan Gupta - 19095116 (Rs. 2500/-)<br/>
+              3. Sahil Setia - 19045094 (Rs. 2000/-)<br/>
+             <strong>First yearites:<br/></strong> 
+              1. Aadeesh Satish Oswal - 20045144 (Rs. 1500/-)<br/>
+              2. Gunjan Pandey - 20045050 (Rs. 1000/-)<br/>
+              </b>
+                 <br></br><br></br>
+                 <strong>Cash prizes will be rolled out in 48 hours.  </strong>               
+            </p>
+
+          </div>
+        </Widget>
+      </Col>
+    </Row>
 
 <Row className="row justify-content-center">
       <Col  xs={"12"} lg={"8"}  >
@@ -62,7 +96,7 @@ const ChemCoding = () => (
           <h4 className="event-heading mt-5  display-5">Registrations have started</h4>
           <div className="widget-padding-md w-100 h-100 text-left border rounded">
             <p className="text-bodyy">
-              <>Registration for ChemCoding has started: <a href="https://docs.google.com/forms/d/1M8l6AHtYyLDY_20lAAjgRUhMDV-vmXjQJeXfI4nIFDM/edit" target="_blank">
+              <>Registration for ChemCoding has started: <a rel="noopener noreferrer" href="https://docs.google.com/forms/d/1M8l6AHtYyLDY_20lAAjgRUhMDV-vmXjQJeXfI4nIFDM/edit" target="_blank">
                 Click here </a>
                 to register.
               </>

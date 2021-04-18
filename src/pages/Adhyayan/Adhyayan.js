@@ -6,6 +6,35 @@ import PS from '../../assets/people/adhyanps.pdf';
 
 const Adhyayan = () => (
   <div >
+       {/* This is New Widget */}
+       <Row className="row justify-content-center">
+      <Col  xs={"12"} lg={"8"}  >
+        <Widget
+          title={
+            <h5>
+              Adhyayan{" "}
+              <small className="text-muted">18 april 2021</small>
+            </h5>
+          }
+          collapse
+          close
+
+
+        >
+          <h4 className="event-heading mt-5  display-5">Results are Out!</h4>
+          <div className="widget-padding-md w-100 h-100 text-left border rounded">
+            <p className="text-bodyy">
+            <b>1. Bechu_Saviours :</b> Yash Singhania, Dipansh Jain, Parth Gupta (Rs 4000/-)<br/>
+            <b>2. Prayas</b> : Srishti Bansal, Rishit Arya, Harsh Singhal (Rs 3300/-)<br/>
+            <b>3. Visual Spectacles </b>: Vedant Chitnis, Shashank Balakrishnan (Rs 2700/-)<br/>
+                 <br></br><br></br>
+                 <strong>Cash prizes will be rolled out in 48 hours.  </strong>               
+            </p>
+
+          </div>
+        </Widget>
+      </Col>
+    </Row>
       <Row className="row justify-content-center">
       <Col  xs={"12"} lg={"8"}  >
         <Widget

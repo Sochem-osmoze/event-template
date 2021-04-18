@@ -23,7 +23,7 @@ import Chemcoding from "../../assets/people/ChemcodingImg.jpg";
 import osmoclick from "../../assets/people/osmoclick.jpg";
 import OsmoCross from "../../assets/people/OsmoCross.jpg";
 import Chemathon from  "../../assets/people/ChemathonImg.jpg";
-import ComingSoon from "../../assets/people/cominsoon.jpg";
+// import ComingSoon from "../../assets/people/cominsoon.jpg";
 import UdyogImg from '../../assets/people/UdyogImg.jpg';
 import AdhyanImg from '../../assets/people/AdhyanImg.jpg';
 import GuestLecture from "../../assets/people/guest_lecture.jpg";
@@ -182,6 +182,14 @@ class Dashboard extends React.Component {
               <CardImg top width="100%" src={osmoclick} alt="Card image cap" />
               <CardBody>
                 <CardTitle tag="h5">OsmoClick</CardTitle>
+                <CardText>
+                  <strong>Results are out!<br/></strong>
+                <b>
+                1. Nikhil Gupta (Rs. 1000/-) <br/>
+                2. Seema Kumari (Rs. 750/-)<br/>
+                3. Shirsty Maurya(Rs. 500/-)<br/>
+                </b>
+                </CardText>
               </CardBody>
             </Card>
           </Col>

@@ -7,6 +7,35 @@ import PS from '../../assets/people/udyogps.pdf';
 
 const Udyogg = () => (
   <div >
+    {/* This is New Widget */}
+<Row className="row justify-content-center">
+      <Col  xs={"12"} lg={"8"}  >
+        <Widget
+          title={
+            <h5>
+              Udyogg{" "}
+              <small className="text-muted">18 april 2021</small>
+            </h5>
+          }
+          collapse
+          close
+
+
+        >
+          <h4 className="event-heading mt-5  display-5">Results are Out!</h4>
+          <div className="widget-padding-md w-100 h-100 text-left border rounded">
+            <p className="text-bodyy">
+              <b>
+<strong>Squadron :</strong> Soniya Karamchandani, Shashwat Kesharwani, Shashwat Tewari (Rs 4000/-)
+              </b>
+                 <br></br><br></br>
+                 <strong>Cash prizes will be rolled out in 48 hours.  </strong>               
+            </p>
+
+          </div>
+        </Widget>
+      </Col>
+    </Row>
  {/* This is New Widget */}
  <Row className="row justify-content-center">
       <Col  xs={"12"} lg={"8"}  >
